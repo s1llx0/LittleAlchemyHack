@@ -1,4 +1,4 @@
-d3.json("relation.json", function (e,dat) {
+d3.json("data.json", function (e,dat) {
   if (e) return console.log(e);
   console.log(dat);
 
